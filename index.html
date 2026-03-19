@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Rick and Morty</title>
+</head>
+
+<body>
+  <form action="" method="get">
+    <h2>BUSCA DE PERSONAGEM:</h2>
+    <label for="characterId">ID: </label>
+    <input type="number" name="characterId" id="characterId">
+
+    <hr>
+
+    <h3>INFORMAÇÕES:</h3>
+    <label for="name">Nome</label>
+    <input type="checkbox" name="name" id="name">
+
+    <label for="name">Status</label>
+    <input type="checkbox" name="status" id="status">
+
+    <label for="name">Espécie</label>
+    <input type="checkbox" name="species" id="species">
+
+    <label for="name">Gênero</label>
+    <input type="checkbox" name="gender" id="gender">
+
+    <label for="name">Planeta de origem</label>
+    <input type="checkbox" name="origin" id="origin">
+
+    <label for="name">Episódios</label>
+    <input type="checkbox" name="episode" id="episode">
+
+    <hr>
+
+    <button type="submit" id="btn-go">Pesquisar</button>
+    <button type="reset" id="btn-reset">Limpar</button>
+  </form> 
+
+  <div id="result-style">
+    <img src="" alt="" id="img">
+    <div id="content"></div>
+  </div>
+  
+</body>
+<script src="./script.js"></script>
+
+</html>
