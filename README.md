@@ -43,7 +43,7 @@ Aplicação desenvolvida em JavaScript para consumo da API pública de Rick and 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/rick-and-morty-api.git
+git clone https://github.com/yasminferraridias/rick-and-morty-api.git
 ```
 
 2. Abra o arquivo `index.html` no navegador
